@@ -1,5 +1,6 @@
 package com.datayes.volleymodule;
 
+import android.content.SharedPreferences;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -18,7 +19,8 @@ public class MainActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         LoginManager manager = new LoginManager(this);
-//        manager.login("quandong.li@datayes.com", "l5228268", new Response.Listener<AuthResult>() {
+
+//        manager.login("quandong.li@datayes.com", "123456", new Response.Listener<AuthResult>() {
 //            @Override
 //            public void onResponse(AuthResult response) {
 //                Toast.makeText(MainActivity.this,"login token = " + response.getAccessToken()
@@ -33,7 +35,7 @@ public class MainActivity extends ActionBarActivity {
 //            }
 //        });
 
-        manager.login("quandong.li@datayes.com", "l5228268", new ResponseListener<AuthResult>() {
+        manager.login("quandong.li@datayes.com", "123456", new ResponseListener<AuthResult>() {
             @Override
             public void onSuccess(AuthResult data) {
                 Toast.makeText(MainActivity.this,"login token = " + data.getAccessToken()
