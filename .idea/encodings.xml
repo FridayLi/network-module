@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/network/src/main/java/com/datayes/network/BaseRequest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/network/src/main/java/com/datayes/network/DYCookieManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/network/src/main/java/com/datayes/network/HttpsStack.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/network/src/main/java/com/datayes/network/JSONObjectResponseParser.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/network/src/main/java/com/datayes/network/RequestManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/network/src/main/java/com/datayes/network/RequestTask.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/network/src/main/java/com/datayes/network/RequestTaskManager.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/network/src/main/java/com/datayes/network/ResponseErrorChecker.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/network/src/main/java/com/datayes/network/ResponseParser.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
